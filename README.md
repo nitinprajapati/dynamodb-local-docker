@@ -16,7 +16,7 @@ Default output format [None]: json
 
 ```
 $ docker build -t ddb_local .
-$ docker run --name dynamodb_local -idt ddb_local
+$ docker run --name dynamodb_local -p 8000:8000 -idt ddb_local
 ```
 
 ## List the Container:
@@ -27,20 +27,10 @@ CONTAINER ID        IMAGE                COMMAND                  CREATED       
 e8e13e28f21c        ddb01                "sh /opt/ddb.sh"         3 seconds ago       Up 2 seconds        8000/tcp                                                                           dynamo_local
 ```
 
-## Get The IP Endpoint:
-
-```
-$ docker exec dynamo_local ip addr
-546: eth0@if547: <BROADCAST,MULTICAST,UP,LOWER_UP,M-DOWN> mtu 1500 qdisc noqueue state UP
-    link/ether 02:42:ac:11:00:08 brd ff:ff:ff:ff:ff:ff
-    inet 172.17.0.8/16 scope global eth0
-       valid_lft forever preferred_lft forever
-```
-
 ## List Table
 
 ```
-$ aws dynamodb list-tables --endpoint-url http://172.17.0.8:8000
+$ aws dynamodb list-tables --endpoint-url http://localhost:8000
 {
     "TableNames": []
 }
