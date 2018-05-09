@@ -97,7 +97,7 @@ $ aws dynamodb --endpoint-url http://localhost:8000 get-item --table-name MusicC
 
 ## Batch Write to the Table:
 
-Now lets use the [iTunes API](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/) to get a collection of some songs, which I will dump into a json file on github. So now that we have a json file with a collection of songs from multiple artists, we can go ahead and write it into our table using the `BatchWriteItem` call:
+Now lets use the [iTunes API](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/) to get a collection of some songs, which I will dump into a json file on [github](https://github.com/ruanbekker/dynamodb-local-docker/blob/master/demo/batch-write-songs.json). So now that we have a json file with a collection of songs from multiple artists, we can go ahead and write it into our table using the `BatchWriteItem` call:
 
 ```
 $ aws dynamodb batch-write-item --request-items file://music-table/batch-write-songs.json --endpoint-url http://localhost:8000
