@@ -1,0 +1,139 @@
+{
+    "MusicCollection": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "Artist": {"S": "Bon Jovi"},
+                    "SongTitle": {"S": "It's My Life"},
+                    "AlbumTitle": {"S": "Greatest Hits - The Ultimate Collection"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Artist": {"S": "Bon Jovi"},
+                    "SongTitle": {"S": "Livin' On a Prayer"},
+                    "AlbumTitle": {"S": "Cross Road"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Artist": {"S": "Creed"},
+                    "SongTitle": {"S": "My Own Prison"},
+                    "AlbumTitle": {"S": "One"}
+                }
+            }
+        },
+                {
+            "PutRequest": {
+                "Item": {
+                    "Artist": {"S": "Asking Alexandria"},
+                    "SongTitle": {"S": "The Death of Me"},
+                    "AlbumTitle": {"S": "From Death To Destiny"}
+                }
+            }
+        },
+                {
+            "PutRequest": {
+                "Item": {
+                    "Artist": {"S": "The Beatles"},
+                    "SongTitle": {"S": "Come Together"},
+                    "AlbumTitle": {"S": "Abbey Road"}
+                }
+            }
+        },
+                {
+            "PutRequest": {
+                "Item": {
+                    "Artist": {"S": "The Beatles"},
+                    "SongTitle": {"S": "Happy Day"},
+                    "AlbumTitle": {"S": "The Beatles 1967-1970 (The Blue Album)"}
+                }
+            }
+        },
+                {
+            "PutRequest": {
+                "Item": {
+                    "Artist": {"S": "The Beatles"},
+                    "SongTitle": {"S": "Help!"},
+                    "AlbumTitle": {"S": "The Beatles Box Set"}
+                }
+            }
+        },
+                {
+            "PutRequest": {
+                "Item": {
+                    "Artist": {"S": "AC/DC"},
+                    "SongTitle": {"S": "You Shook Me All Night Long"},
+                    "AlbumTitle": {"S": "Back in Black"}
+                }
+            }
+        },
+                {
+            "PutRequest": {
+                "Item": {
+                    "Artist": {"S": "AC/DC"},
+                    "SongTitle": {"S": "Thunderstruck"},
+                    "AlbumTitle": {"S": "The Razors Edge"}
+                }
+            }
+        },
+                {
+            "PutRequest": {
+                "Item": {
+                    "Artist": {"S": "AC/DC"},
+                    "SongTitle": {"S": "Back In Black"},
+                    "AlbumTitle": {"S": "Back In Black"}
+                }
+            }
+        },
+                {
+            "PutRequest": {
+                "Item": {
+                    "Artist": {"S": "Metallica"},
+                    "SongTitle": {"S": "One"},
+                    "AlbumTitle": {"S": "...And Justice for All"}
+                }
+            }
+        },
+                {
+            "PutRequest": {
+                "Item": {
+                    "Artist": {"S": "Metallica"},
+                    "SongTitle": {"S": "For Whom the Bell Tolls"},
+                    "AlbumTitle": {"S": "Ride the Lightning (Remastered)"}
+                }
+            }
+        },
+                {
+            "PutRequest": {
+                "Item": {
+                    "Artist": {"S": "Metallica"},
+                    "SongTitle": {"S": "Sad But True"},
+                    "AlbumTitle": {"S": "Metallica"}
+                }
+            }
+        },
+                {
+            "PutRequest": {
+                "Item": {
+                    "Artist": {"S": "Metallica"},
+                    "SongTitle": {"S": "Nothing Else Matters"},
+                    "AlbumTitle": {"S": "Metallica"}
+                }
+            }
+        },
+                {
+            "PutRequest": {
+                "Item": {
+                    "Artist": {"S": "Nirvana"},
+                    "SongTitle": {"S": "Smells Like Teen Spirit"},
+                    "AlbumTitle": {"S": "Nevermind"}
+                }
+            }
+        }
+    ]
+}
